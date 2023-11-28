@@ -121,3 +121,21 @@ $("h1").on("mouseover",function(){
     $("h1").css("color", "purple");
 });
 */
+
+
+
+
+
+
+
+// Adding and Removing Elements with jQuery
+// before, after, prepend, append
+
+// $("h1").before("<button>New</button>");
+// $("h1").after("<button>New</button>");
+// $("h1").prepend("<button>New</button>"); // add inside <h1> but before the text
+// $("h1").append("<button>New</button>"); // add inside <h1> but right before </h1> after the text
+
+
+// Removes all current buttons
+// $("button").remove();
