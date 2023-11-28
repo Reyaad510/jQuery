@@ -65,3 +65,13 @@ $("button")
 
 
 
+
+
+
+// Manipulate Attributes with jQuery
+
+// console.log($("img").attr("src"));
+
+// $("a").attr("href", "www.google.com")
+
+// $("h1").attr("class"); -> "big-title margin-50"
