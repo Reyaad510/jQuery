@@ -75,3 +75,49 @@ $("button")
 // $("a").attr("href", "www.google.com")
 
 // $("h1").attr("class"); -> "big-title margin-50"
+
+
+
+// Adding event listeners with jQuery
+
+/* 
+
+Below is the same as the jQuery below it. jQuery you don't need the for loop
+for(let i = 0; i < 5; i++) {
+
+    document.querySelectorAll("button")[i].addEventListener("click", function(){
+
+        document.querySelector("h1").style.color = "purple";
+
+    })
+
+}
+*/
+
+
+// when click button it changes h1 color to purple
+/*
+$("button").click(function(){
+
+    $("h1").css("color", "purple");
+
+})
+*/
+
+/*
+$("body").keypress(function(event){
+    console.log(event.key);
+})
+*/
+
+/*
+$("body").keydown(function(event){
+    $("h1").text(event.key);
+})
+*/
+
+/*
+$("h1").on("mouseover",function(){
+    $("h1").css("color", "purple");
+});
+*/
