@@ -46,3 +46,22 @@ $("button")
 // $("h1").hasClass("margin-50"); true/false
 
 
+
+
+
+
+// Manipulate Text with jQuery
+
+// change text of element
+//$("h1").text("Bye");
+
+// change text of all buttons
+//$("button").text("Don't click Me");
+
+
+// ".html" will change the text inside of all buttons to "italics" as opposed to using ".text"
+//$("button").html("<em>Hey</em>")
+
+
+
+
