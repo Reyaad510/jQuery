@@ -139,3 +139,46 @@ $("h1").on("mouseover",function(){
 
 // Removes all current buttons
 // $("button").remove();
+
+
+
+
+// Website Animations with jQuery
+
+
+// when click any button will hide "h1"
+
+$("button").on("click", function(){
+
+   // $("h1").hide();
+    
+    // to show h1 
+   // $("h1").show();
+
+    // toggle on and off
+    //$("h1").toggle();
+
+    /* fades
+    $("h1").fadeOut();
+    $("h1").fadeIn();
+    $("h1").fadeToggle();
+    */
+
+    /* Collapse element
+    $("h1").slideDown();
+    $("h1").slideUp();
+    $("h1").slideToggle();
+    */
+
+
+    // .animate, must stick to things with numerical values
+   //  $("h1").animate({opacity: 0.5});
+
+    // $("h1").animate({color: red}); will not work cuz no number value
+
+
+    
+    // can chain animation
+    $("h1").slideUp().slideDown().animate({opacity: 0.5});
+
+})
